@@ -1,6 +1,15 @@
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
-	background: url("https://static1.squarespace.com/static/533a2ebce4b021231131d20a/t/5652a68be4b06cc32bba3fe5/1448257167817/?format=1500w");
+	font-family: Helvetica;
+}
+section {
+	padding:5em 0;
+}
+ul {
+	padding:1.25em;
+}
+#intro {
+	background: url("../images/hero.jpg");
 	background-size: cover;
-	color: #fff;
-	font-family: Helvetica; 
+	height: 90vh;
 }
