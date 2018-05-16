@@ -8,6 +8,10 @@ section {
 ul {
 	padding:1.25em;
 }
+a {
+	text-decoration: none;
+	color: grey;
+}
 #intro {
 	background: url("../images/hero.jpg");
 	background-size: cover;
