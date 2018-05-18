@@ -1,9 +1,16 @@
 * {margin:0;padding:0;box-sizing:border-box;}
-body {
-	font-family: Helvetica;
+
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+h1, h2, p {
+	font-family: 'Cabin', sans-serif;
 }
 section {
 	padding:5em 0;
+}
+p {
+	font-size: 1.5em;
+	line-height: 1.75em;
 }
 ul {
 	padding:1.25em;
@@ -13,7 +20,7 @@ a {
 	color: grey;
 }
 #intro {
-	background: url("../images/hero.jpg");
+	background: url(../images/hero.jpg);
 	background-size: cover;
 	height: 90vh;
 }
