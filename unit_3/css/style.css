@@ -1,9 +1,9 @@
+@import url(../exo);
+
 * {margin:0;padding:0;box-sizing:border-box;}
 
-@import url(https://fonts.googleapis.com/css?family=Cabin);
-
 h1, h2, p {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Exo';
 }
 section {
 	padding:5em 0;
