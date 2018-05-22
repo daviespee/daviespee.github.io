@@ -1,19 +1,36 @@
-@import url(../exo);
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
-h1, h2, p {
-	font-family: 'Exo';
+body{
+	background-color: #88c2cd;
+}
+h1, h2, h3, p, ul {
+	font-family: 'Cabin';
 }
 section {
 	padding:5em 0;
 }
+h1 {
+	font-size: 2.75em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2.75em;
+	font-weight: normal;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
 p {
 	font-size: 1.5em;
-	line-height: 1.75em;
+	font-weight: normal;
+	line-height: 1.25em;
 }
 ul {
 	padding:1.25em;
+	font-size: 1.5em;
 }
 a {
 	text-decoration: none;
@@ -23,4 +40,10 @@ a {
 	background: url(../images/hero.jpg);
 	background-size: cover;
 	height: 90vh;
+}
+.features {
+	color: white;
+}
+#outro {
+		color: white;
 }
