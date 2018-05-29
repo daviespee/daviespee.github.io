@@ -9,7 +9,7 @@ h1, h2, h3, p, ul {
 	font-family: 'Cabin';
 	padding: 0 2em;
 }
-section {
+section, footer {
 	padding:5em 0;
 }
 h1 {
@@ -40,10 +40,25 @@ a {
 	background: url(../images/hero.jpg);
 	background-size: cover;
 	height: 90vh;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+.features, #outro, footer {
+	color: white;
 }
 .features {
-	color: white;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
-#outro {
-	color: white;
+#outro, #video {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
