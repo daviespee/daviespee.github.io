@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	background-color: #88c2cd;
+}
+h1, h2, h3, p, ul {
+	font-family: 'Cabin';
+	padding: 0 3em;
+	color: white;
+}
+section {
+	padding:5em 0;
+}
+h1 {
+	font-size: 2.75em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2.75em;
+	font-weight: normal;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+p {
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 1.25em;
+}
+ul {
+	font-size: 1.5em;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+#intro {
+	background: url(../images/hero.jpg);
+	background-size: cover;
+	height: 90vh;
+}
+.features {
+}
+#outro {
+}
