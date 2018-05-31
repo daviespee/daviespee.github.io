@@ -7,10 +7,10 @@ body{
 }
 h1, h2, h3, p, ul {
 	font-family: 'Cabin';
-	padding: 0 2em;
 }
 section, footer {
-	padding:5em 0;
+	padding:5em 4em;
+
 }
 h1 {
 	font-size: 2.75em;
@@ -40,25 +40,7 @@ a {
 	background: url(../images/hero.jpg);
 	background-size: cover;
 	height: 90vh;
-	background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
 }
 .features, #outro, footer {
 	color: white;
-}
-.features {
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
-#outro, #video {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-footer {
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
 }
