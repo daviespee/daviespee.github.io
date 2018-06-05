@@ -5,7 +5,7 @@
 body{
 	background-color: #88c2cd;
 }
-h1, h2, h3, p, ul {
+h1, h2, h3, p, ul, #button {
 	font-family: 'Cabin';
 }
 section, footer {
@@ -21,6 +21,7 @@ h2 {
 	font-weight: normal;
 }
 h3 {
+	padding-top: .5em;
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -41,6 +42,36 @@ a {
 	background-size: cover;
 	height: 90vh;
 }
-.features, #outro, footer {
+#mission, .features, #outro, footer {
 	color: white;
+}
+#left {
+	float: left;
+	width: 50%;
+}
+#right {
+	float: right;
+	width: 50%;
+	padding-top: 10em;
+}
+.features:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#button {
+	display: inline;
+	padding: 1em;
+	border: 2px black solid;
+	color: black;
+	font-weight: bold;
+	line-height: 15em;
+}
+#button:hover {
+	background-color: #88c2cd;
+	color: white;
+	border: none;
 }
