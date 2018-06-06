@@ -54,7 +54,7 @@ li {
 #intro {
 	background: url(../images/hero.jpg);
 	background-size: cover;
-	padding-top: 1%;
+	padding-top: 10%;
 	height: 95vh;
 }
 #mission, .features, #outro, footer {
