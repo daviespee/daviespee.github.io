@@ -18,6 +18,7 @@ h1 {
 }
 h2 {
 	font-size: 2.75em;
+	line-height: 1em;
 	font-weight: normal;
 }
 h3 {
@@ -28,15 +29,16 @@ h3 {
 p {
 	font-size: 1.5em;
 	font-weight: normal;
-	line-height: 1.25em;
-	padding-top: .5em;
+	line-height: 1.4em;
+	padding-top: 1em;
 }
 ul {
 	font-size: 1.5em;
 }
 a {
 	text-decoration: none;
-	color: grey;
+	font-weight: bold;
+	color: #56a4b0;
 }
 a:hover {
 	color: white;
@@ -52,7 +54,8 @@ li {
 #intro {
 	background: url(../images/hero.jpg);
 	background-size: cover;
-	height: 90vh;
+	padding-top: 1%;
+	height: 95vh;
 }
 #mission, .features, #outro, footer {
 	color: white;
@@ -65,6 +68,7 @@ li {
 	float: right;
 	width: 50%;
 	padding-top: 10em;
+	padding-right: 10em;
 }
 .features:after {
     visibility: hidden;
@@ -89,6 +93,6 @@ li {
 }
 footer {
 	font-size: .5em;
-	background: grey;
+	background: #56a4b0;
 	padding-left: 7em;
 }
