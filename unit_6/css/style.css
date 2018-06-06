@@ -38,6 +38,17 @@ a {
 	text-decoration: none;
 	color: grey;
 }
+a:hover {
+	color: white;
+}
+ul {
+	list-style: none;
+}
+li {
+	float: left;
+	width: 10%;
+	line-height: 4em;
+}
 #intro {
 	background: url(../images/hero.jpg);
 	background-size: cover;
