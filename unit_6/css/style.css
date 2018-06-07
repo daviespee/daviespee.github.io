@@ -51,24 +51,49 @@ li {
 	width: 10%;
 	line-height: 4em;
 }
+iframe {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#video div {
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
 #intro {
 	background: url(../images/hero.jpg);
 	background-size: cover;
 	padding-top: 10%;
 	height: 95vh;
 }
-#mission, .features, #outro, footer {
+.features, #outro, footer {
 	color: white;
 }
-#left {
+#mission {
+	background-color: white;
+	color: #88c2cd;
+}
+#mission > h2 {
+	padding-bottom: .5em;
+	font-weight: bold;
+}
+#mission > p {
+	font-weight: bold;
+}
+.features {
+	max-width: 1200px;
+	margin: auto;
+	padding: 5em 0;
+}
+.features > div {
+	padding: 5em;
+}
+.features > * {
 	float: left;
 	width: 50%;
-}
-#right {
-	float: right;
-	width: 50%;
-	padding-top: 10em;
-	padding-right: 10em;
 }
 .features:after {
     visibility: hidden;
