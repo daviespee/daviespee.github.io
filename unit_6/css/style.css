@@ -76,6 +76,9 @@ iframe {
 	background-color: white;
 	color: #88c2cd;
 }
+#mission div {
+	padding: 0em 30%;
+}
 #mission > h2 {
 	padding-bottom: .5em;
 	font-weight: bold;
@@ -89,7 +92,7 @@ iframe {
 	padding: 5em 0;
 }
 .features > div {
-	padding: 5em;
+	padding: 5em 0em 0em 5em;
 }
 .features > * {
 	float: left;
@@ -120,4 +123,12 @@ footer {
 	font-size: .5em;
 	background: #56a4b0;
 	padding-left: 7em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
