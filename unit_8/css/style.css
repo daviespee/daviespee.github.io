@@ -23,7 +23,7 @@ h2 {
 	font-weight: normal;
 }
 h3 {
-	padding-top: .5em;
+	margin-top: .5em;
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -31,7 +31,7 @@ p {
 	font-size: 1.5em;
 	font-weight: normal;
 	line-height: 1.4em;
-	padding-top: 1em;
+	margin-top: 1em;
 }
 ul {
 	font-size: 1.5em;
@@ -67,7 +67,8 @@ iframe {
 #intro {
 	background: url(../images/hero.jpg);
 	background-size: cover;
-	padding-top: 10%;
+	margin-top: 10%;
+	position: right;
 	height: 95vh;
 }
 #intro div {
@@ -190,10 +191,8 @@ li {
 @media only screen and (max-width: 480px) {
 
 	#mission div {
-	padding: 0em 5%;
+	padding: 0em 2%;
 }
 
-	#intro > h3 {
-		padding-right: 11em;
-	}
+
 }
