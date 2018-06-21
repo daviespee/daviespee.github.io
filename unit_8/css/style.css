@@ -67,7 +67,7 @@ iframe {
 #intro {
 	background: url(../images/hero.jpg);
 	background-size: cover;
-	margin-top: 10%;
+	margin-top: 0%;
 	position: right;
 	height: 95vh;
 }
@@ -190,9 +190,20 @@ li {
 
 @media only screen and (max-width: 480px) {
 
+	body {
+		font-size: 11px;
+	}
+
 	#mission div {
 	padding: 0em 2%;
-}
+	}
 
+	#video {
+	padding: 4%;
+	}
+
+	.features > div {
+	padding: 2.2em 2em 0em 2.2em;
+	}
 
 }
